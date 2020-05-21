@@ -1,7 +1,5 @@
 language: cpp
 os: linux
 dist: xenial
-
 compiler: gcc
-
 script: ./src/Test.cpp
