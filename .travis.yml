@@ -2,9 +2,9 @@ language: cpp
 os: linux
 dist: xenial
 compiler: gcc
-script: ./src/Test.cpp
 script:
 - dos2unix ${TRAVIS_BUILD_DIR}/src/Test.cpp
+- ./src/Test.cpp
 addons:
   apt:
     packages:
