@@ -1,7 +1,7 @@
 language: cpp
 os: linux
 dist: xenial
-compiler: gcc
+compiler: clang
 before_install:
   - chmod +x ./src/Test.cpp
 script:
