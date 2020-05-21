@@ -4,4 +4,4 @@ dist: xenial
 
 compiler: gcc
 script:
-  - make
+  - make test
