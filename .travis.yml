@@ -3,7 +3,5 @@ os: linux
 dist: xenial
 
 compiler: gcc
-script:
-  - cmake .. -Dtest=on
-  - make -j8
-  - make test
+
+script: ./src/Test.cpp
