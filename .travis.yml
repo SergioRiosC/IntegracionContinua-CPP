@@ -3,3 +3,9 @@ os: linux
 dist: xenial
 compiler: gcc
 script: ./src/Test.cpp
+script:
+- dos2unix ${TRAVIS_BUILD_DIR}/scripts/*
+addons:
+  apt:
+    packages:
+    - dos2unix
