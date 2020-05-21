@@ -2,7 +2,7 @@
 #include "../include/Funciones.h"
 
 TEST(suma,pruebasum){
-    EXPECT_EQ(20,sum(5,15));
+    EXPECT_EQ(21,sum(5,15));
     EXPECT_EQ(5,sum(1,4));
 }
 TEST(Resta, PruebaRes){
