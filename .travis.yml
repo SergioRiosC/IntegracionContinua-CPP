@@ -1,6 +1,8 @@
 language: cpp
 
 sudo: false
+compiler:
+  - std=c++11
 
 addons:
   apt:
