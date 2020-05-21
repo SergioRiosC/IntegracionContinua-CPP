@@ -1,7 +1,7 @@
 #include "../ext/googletest/googletest/include/gtest/gtest.h"
 #include "../include/Funciones.h"
 
-TEST(suma,pruebasum){
+TEST(Suma, PruebaSum){
     EXPECT_EQ(20,sum(5,15));
     EXPECT_EQ(5,sum(1,4));
 }
