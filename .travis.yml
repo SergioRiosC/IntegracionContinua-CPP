@@ -12,8 +12,8 @@ before_install:
   - chmod +x ./src/Test.cpp
 
 script:
-  - mkdir build
-  - cd build
+  - mkdir Build
+  - cd Build
   - cmake ..
   - cmake --build .
   - ctest
