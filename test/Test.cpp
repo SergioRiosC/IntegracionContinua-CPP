@@ -1,4 +1,4 @@
-#include "../ext/googletest/googletest/include/gtest/gtest.h"
+#include "../ext/googletest/include/gtest.h"
 #include "../src/Funciones.h"
 
 TEST( S,PS){
