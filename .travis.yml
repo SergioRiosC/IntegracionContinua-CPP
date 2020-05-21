@@ -9,7 +9,7 @@ addons:
 
 before_install:
   - pip install --user cpp-coveralls
-  - chmod +x ./src/Test.cpp
+  - chmod +x ./test/Test.cpp
 
 script:
   - mkdir Build
