@@ -6,7 +6,7 @@ target_sources(
     PRIVATE
         Funciones.cpp
     PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/include/Funciones.h
+        ${CMAKE_CURRENT_LIST_DIR}/Funciones.h
     )
 
 target_include_directories(

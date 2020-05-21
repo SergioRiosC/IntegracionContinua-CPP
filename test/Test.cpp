@@ -1,5 +1,5 @@
 #include "../ext/googletest/googletest/include/gtest/gtest.h"
-#include "../include/Funciones.h"
+#include "../src/Funciones.h"
 
 TEST( S,PS){
     EXPECT_EQ(20,sum(5,15));
